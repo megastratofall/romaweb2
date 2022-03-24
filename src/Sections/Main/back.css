@@ -1,0 +1,7 @@
+#home {
+  background-image: url("../../assets/5.jpg") !important;
+  border-radius: thin solid red;
+}
+p {
+  font-size: 1.2rem;
+}
