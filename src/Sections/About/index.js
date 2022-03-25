@@ -1,6 +1,6 @@
 import ferni from "../../assets/ferni.jpg";
 import styled, { keyframes } from "styled-components";
-import Back from "./back.css";
+import "./back.css";
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -32,21 +32,6 @@ const Main = styled.div`
     align-items: center;
     margin: 3rem calc(3rem + 3vw);
   }
-`;
-
-const Title = styled.h1`
-  font-size: 2rem;
-  display: inline-block;
-  color: var(--red);
-  font-family: Bleeding Cowboys, Comic Sans MS;
-`;
-
-const CurvedLine = styled.div`
-  width: 7rem;
-  height: 2rem;
-  border: solid 5px var(--white);
-  border-color: var(--white) transparent transparent transparent;
-  border-radius: 150%/60px 70px 0 0;
 `;
 
 const Content = styled.div`

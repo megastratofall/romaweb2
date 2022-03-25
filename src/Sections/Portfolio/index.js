@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
-import portfoliostyle from "./portfolio.css";
+import "./portfolio.css";
 import img1 from "../../assets/1.jpg";
 import img2 from "../../assets/2.JPG";
 import img3 from "../../assets/3.JPG";

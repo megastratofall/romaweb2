@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Faneo from "../../assets/faneoicon.png";
 import Devianart from "../../assets/devianarticon.png";
 import emailjs from "@emailjs/browser";
-import back from "./back.css";
+import "./back.css";
 
 const ContactSection = styled.section`
   width: 100vw;
