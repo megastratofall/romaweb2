@@ -12,12 +12,6 @@
   padding-bottom: 15px;
 }
 
-h1 {
-  font-size: 2rem;
-  color: var(--red);
-  font-family: Bleeding Cowboys, Comic Sans MS;
-}
-
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;

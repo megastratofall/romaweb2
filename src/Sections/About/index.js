@@ -1,5 +1,6 @@
 import ferni from "../../assets/ferni.jpg";
 import styled, { keyframes } from "styled-components";
+import Back from "./back.css";
 
 const move = keyframes`
 0% { transform: translateY(-5px)         }
@@ -86,29 +87,35 @@ const AboutText = styled.div`
 
 const index = () => {
   return (
-    <AboutSection id="about">
-      <Main>
-        <div>
-          <Title>Sobre mi</Title>
-          <CurvedLine />
-        </div>
-        <Content>
-          <Fercho>
-            <img src={ferni} alt="" width="400" height="400" />
-          </Fercho>
-          <AboutText>
-            <Text>
-              Mi nombre es Fernando Roma, soy un aficionado al dibujo, se podría
-              decir que dibujo desde que tengo uso de razón, pero nunca me había
-              dado cuenta de que el arte estuvo en mis venas y del tiempo que
-              había desperdiciado. Hoy a mis 41 años decidí exponer todo lo que
-              hago con respecto a lo que más amo, quiero que el dibujo sea no
-              solo parte de mí, si no toda mi vida.
-            </Text>
-          </AboutText>
-        </Content>
-      </Main>
-    </AboutSection>
+    <>
+      <AboutSection className="home" id="about">
+        <Main>
+          <Content>
+            <Fercho>
+              <img
+                src={ferni}
+                alt=""
+                width="400"
+                height="400"
+                style={{ borderRadius: "50%" }}
+              />
+            </Fercho>
+            <AboutText>
+              <Text>
+                <p>
+                  Mi nombre es Fernando Roma, soy un aficionado al dibujo, se
+                  podría decir que dibujo desde que tengo uso de razón, pero
+                  nunca me había dado cuenta de que el arte estuvo en mis venas
+                  y del tiempo que había desperdiciado. Hoy a mis 41 años decidí
+                  exponer todo lo que hago con respecto a lo que más amo, quiero
+                  que el dibujo sea no solo parte de mí, si no toda mi vida.
+                </p>
+              </Text>
+            </AboutText>
+          </Content>
+        </Main>
+      </AboutSection>
+    </>
   );
 };
 

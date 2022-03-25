@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import MoserviFoto from "../../assets/moservi2.jpg";
-import Back from "./back.css";
 
 const HomeSection = styled.section`
   width: 100vw;

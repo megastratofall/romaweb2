@@ -5,11 +5,16 @@ import img1 from "../../assets/1.jpg";
 import img2 from "../../assets/2.JPG";
 import img3 from "../../assets/3.JPG";
 import img4 from "../../assets/4.jpg";
-import img5 from "../../assets/5.jpg";
-import img6 from "../../assets/6.jpg";
-import img7 from "../../assets/7.jpg";
-import img8 from "../../assets/8.jpg";
-import img9 from "../../assets/9.jpg";
+import img5 from "../../assets/6.jpg";
+import img6 from "../../assets/7.jpg";
+import img7 from "../../assets/8.jpg";
+import img8 from "../../assets/9.jpg";
+import img9 from "../../assets/10.jpg";
+import img10 from "../../assets/11.jpg";
+import img11 from "../../assets/12.jpg";
+import img12 from "../../assets/13.JPG";
+import img13 from "../../assets/14.jpg";
+import img14 from "../../assets/15.JPG";
 
 const Portfolio = () => {
   let data = [
@@ -49,6 +54,26 @@ const Portfolio = () => {
       id: 9,
       imgSrc: img9,
     },
+    {
+      id: 10,
+      imgSrc: img10,
+    },
+    {
+      id: 11,
+      imgSrc: img11,
+    },
+    {
+      id: 12,
+      imgSrc: img12,
+    },
+    {
+      id: 13,
+      imgSrc: img13,
+    },
+    {
+      id: 14,
+      imgSrc: img14,
+    },
   ];
 
   const [model, setModel] = useState(false);
@@ -64,8 +89,6 @@ const Portfolio = () => {
         <img src={tempingSrc} alt="imagen de la galeria" />
         <CloseIcon onClick={() => setModel(false)} />
       </div>
-      <h1>Galeria</h1>
-      <br />
       <div className="gallery">
         {data.map((items, index) => {
           return (

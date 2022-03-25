@@ -14,7 +14,7 @@ const FOOTER = styled.footer`
     align-items: center;
     div {
       &:first-child {
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
       }
     }
   }
@@ -45,7 +45,7 @@ const LeftText = styled.div`
 `;
 const Footer = () => {
   return (
-    <FOOTER>
+    <FOOTER id="contact">
       <LeftText>© 2022 Contruido por{" Virginia Gutiérrez"}</LeftText>
       <RightText>
         &nbsp;

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Faneo from "../../assets/faneoicon.png";
 import Devianart from "../../assets/devianarticon.png";
 import emailjs from "@emailjs/browser";
+import back from "./back.css";
 
 const ContactSection = styled.section`
   width: 100vw;
@@ -11,24 +12,6 @@ const ContactSection = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`;
-
-const Title = styled.h1`
-  color: var(--white);
-  display: inline-block;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  position: relative;
-  &::before {
-    content: "";
-    height: 1px;
-    width: 50%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0.5rem);
-    border-bottom: 2px solid var(--red);
-  }
 `;
 
 const Icons = styled.div`
@@ -138,51 +121,59 @@ const index = () => {
   };
 
   return (
-    <ContactSection id="contact">
-      <Title>Contactame</Title>
-      <Icons>
-        <a
-          href="https://www.faneo.es/users/RxOxMxA/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={Faneo} alt="Faneo Icon" />
-        </a>
-        <a
-          href="https://www.deviantart.com/fernandoroma"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={Devianart} alt="Devianart Icon" />
-        </a>
-      </Icons>
-      <Form onSubmit={sendEmail}>
-        <Row>
-          <input
-            name="user_name"
-            type="text"
-            placeholder="Ingresa tu nombre"
-            style={{ marginRight: ".2rem" }}
-          />
-          <input
-            name="user_email"
-            type="email"
-            placeholder="Ingresa tu email"
-            style={{ marginRight: ".2rem" }}
-          />
-        </Row>
-        <textarea
-          name="user_message"
-          id=""
-          cols="30"
-          rows="2"
-          placeholder="Tu mensaje"
-        ></textarea>
-        <div style={{ margin: "0 auto" }}>
-          <button onSubmit={sendEmail}>Enviar</button>
-        </div>
-      </Form>
-    </ContactSection>
+    <>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <ContactSection className="back" id="backc">
+        <Icons>
+          <a
+            href="https://www.faneo.es/users/RxOxMxA/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Faneo} alt="Faneo Icon" />
+          </a>
+          <a
+            href="https://www.deviantart.com/fernandoroma"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Devianart} alt="Devianart Icon" />
+          </a>
+        </Icons>
+        <Form onSubmit={sendEmail}>
+          <Row>
+            <input
+              name="user_name"
+              type="text"
+              placeholder="Ingresa tu nombre"
+              style={{ marginRight: ".2rem" }}
+            />
+            <input
+              name="user_email"
+              type="email"
+              placeholder="Ingresa tu email"
+              style={{ marginRight: ".2rem" }}
+            />
+          </Row>
+          <textarea
+            name="user_message"
+            cols="30"
+            rows="2"
+            placeholder="Tu mensaje"
+          ></textarea>
+          <div style={{ margin: "0 auto" }}>
+            <button onSubmit={sendEmail}>Enviar</button>
+          </div>
+        </Form>
+      </ContactSection>
+    </>
   );
 };
 
