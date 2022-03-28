@@ -214,6 +214,9 @@ const Header = () => {
         <a href="#portfolio" onClick={(e) => scrollUp("portfolio", e)}>
           Portfolio
         </a>
+        <a href="#work" onClick={(e) => scrollUp("work", e)}>
+          Trabajos
+        </a>
         <a href="#contact" onClick={(e) => scrollUp("contact", e)}>
           <Button>Contacto</Button>
         </a>
@@ -230,6 +233,9 @@ const Header = () => {
         </a>
         <a href="#portfolio" onClick={(e) => handleClick("portfolio", e)}>
           Portfolio
+        </a>
+        <a href="#work" onClick={(e) => handleClick("work", e)}>
+          Trabajos
         </a>
         <a href="#contact" onClick={(e) => handleClick("contact", e)}>
           <Button>Contacto</Button>

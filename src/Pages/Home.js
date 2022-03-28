@@ -2,6 +2,7 @@ import HomeSection from "../Sections/Main/index";
 import About from "../Sections/About/index";
 import Contact from "../Sections/Contact/index";
 import Portfolio from "../Sections/Portfolio/index";
+import Works from "../Sections/Works/index";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -17,6 +18,7 @@ const Home = () => {
       <HomeSection />
       <About />
       <Portfolio />
+      <Works />
       <Contact />
     </Container>
   );

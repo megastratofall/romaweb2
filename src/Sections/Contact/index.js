@@ -122,14 +122,6 @@ const index = () => {
 
   return (
     <>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <ContactSection className="back" id="backc">
         <Icons>
           <a
