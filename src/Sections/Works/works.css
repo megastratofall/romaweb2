@@ -1,6 +1,5 @@
 .container {
   text-align: center;
-  border: medium solid blue;
   background-image: url("../../assets/naveoscura.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -16,7 +15,7 @@
   height: 400px;
   padding-top: 0;
   margin-right: 4rem;
-  margin-left: 6rem;
+  margin-left: 8rem;
   margin-top: 3rem;
   border-radius: 0.25rem;
 }
@@ -25,7 +24,7 @@
   height: 400px;
   padding-top: 0;
   margin-left: 4rem;
-  margin-right: 6rem;
+  margin-right: 8rem;
   margin-top: 3rem;
   border-radius: 0.25rem;
 }
@@ -37,6 +36,10 @@
 }
 .redarrow-container {
   display: flex;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+}
+#flecharoja:hover {
+  cursor: pointer;
 }
