@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import styled from "styled-components";
 
 const Rb = styled.div`
@@ -25,4 +25,4 @@ const SvgBlock = ({ svg }) => {
   );
 };
 
-export default SvgBlock;
+export default SvgBlock; */

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Gmail from "../../assets/envelope-open-solid.svg";
+import logo from "../../assets/logo.png";
 
 const FOOTER = styled.footer`
   color: var(--white);
@@ -27,17 +27,11 @@ const RightText = styled.div`
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 1rem;
-    filter: invert(100%);
     transition: all 0.2s ease-in-out;
   }
-  a {
-    &:hover {
-      img {
-        transform: scale(1.5);
-        filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(216deg)
-          brightness(100%) contrast(97%);
-      }
-    }
+  img:hover {
+    transform: Scale(2);
+    border-radius: 50%;
   }
 `;
 const LeftText = styled.div`
@@ -49,9 +43,7 @@ const Footer = () => {
       <LeftText>© 2022 Contruido por{" Virginia Gutiérrez"}</LeftText>
       <RightText>
         &nbsp;
-        <a href="mailto:fernandoroma1980@gmail.com?subject=Email From Your Website">
-          <img src={Gmail} alt="Gmail" />
-        </a>
+        <img src={logo} alt="logo" style={{ width: "30px", height: "30px" }} />
       </RightText>
     </FOOTER>
   );
