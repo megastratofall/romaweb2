@@ -1,6 +1,5 @@
 import "./works.css";
 import tapa1 from "../../assets/tapa1.jpg";
-import tapa2 from "../../assets/tapa2.jpg";
 import redArrow from "../../assets/redarrow.png";
 import styled, { keyframes } from "styled-components";
 
@@ -25,11 +24,9 @@ const Works = () => {
         <div className="image-container">
           <img id="tapascomic1" src={tapa1} alt="tapa de comic" />
           <p className="invitacion">
-            Si querés ver más de mi trabajo o leer mis comics; "Señora Martillo"
-            y "Amor e Ira", seguí la flecha y conseguirás los íconos de acceso
-            directo a Devianart y Faneo respectivamente.
+            Si querés ver más de mi trabajo o leer mi comic:"Señora Martillo",  seguí la flecha y conseguirás los íconos de acceso directo a todas mis redes
+            sociales.
           </p>
-          <img id="tapascomic2" src={tapa2} alt="tapa de comic" />
         </div>
         <Flebai className="redarrow-container">
           <img id="flecharoja" src={redArrow} alt="redArrow"></img>
@@ -40,3 +37,4 @@ const Works = () => {
 };
 
 export default Works;
+
