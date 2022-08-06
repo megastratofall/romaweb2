@@ -1,8 +1,11 @@
 import styled from "styled-components";
 import Faneo from "../../assets/faneoicon.png";
 import Devianart from "../../assets/devianarticon.png";
+import facebook from "../../assets/facebook.svg";
+import instagram from "../../assets/Instagram.png";
 import emailjs from "@emailjs/browser";
 import "./back.css";
+
 
 const ContactSection = styled.section`
   width: 100vw;
@@ -132,6 +135,20 @@ const index = () => {
             <img src={Faneo} alt="Faneo Icon" />
           </a>
           <a
+            href="https://www.facebook.com/Rxoxmxa_Art-100151302804132"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={facebook} alt="Facebook Icon" />
+          </a>
+          <a
+            href="https://www.instagram.com/rxoxmxa_art/?hl=es"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagram} alt="Instagram Icon" />
+          </a>
+          <a
             href="https://www.deviantart.com/fernandoroma"
             target="_blank"
             rel="noopener noreferrer"
@@ -170,3 +187,4 @@ const index = () => {
 };
 
 export default index;
+
