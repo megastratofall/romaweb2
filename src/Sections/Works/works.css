@@ -25,25 +25,142 @@
   border-radius: 0.25rem;
   box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
 }
-#tapascomic2 {
-  width: 200px;
-  height: 300px;
-  padding-top: 0;
-  margin-left: 4rem;
-  margin-right: 8rem;
-  margin-top: 3rem;
-  border-radius: 0.25rem;
-  box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
-}
+
 .invitacion {
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
-  margin: 6rem;
+  margin: 2rem;
+  margin-left: 0.5rem;
   border-radius: 0.25rem;
 }
 .redarrow-container {
   display: flex;
   width: 200px;
   height: 200px;
-  margin: -55px auto;
+  margin: -100px auto;
+}
+
+@media only Screen and (max-width: 550px) {
+  .invitacion {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    margin: 1.5rem;
+    border-radius: 0.25rem;
+  }
+  .redarrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+  #flecharoja{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+  }
+  #tapascomic1 {
+    display: none;
+    width: 200px;
+    height: 300px;
+    padding-top: 0;
+    margin-right: 4rem;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
+  }
+}
+@media only Screen and (min-width: 500px) {
+  .invitacion {
+    display: flex;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    margin: .5rem;
+  }
+  .redarrow-container {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+  }
+  #flecharoja{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    width: 200px;
+    height: 200px;
+  }
+  #tapascomic1 {
+    width: 200px;
+    height: 250px;
+    margin-top: 6rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
+  }
+}
+@media only Screen and (max-width: 600px) {
+  .invitacion {
+    display: flex;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .redarrow-container {
+    position: relative;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+  }
+  #flecharoja{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+    width: 200px;
+    height: 200px;
+  }
+  #tapascomic1 {
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
+  }
+}
+@media only Screen and (min-width: 920px) {
+  .invitacion {
+    display: flex;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    margin: 1rem;
+  }
+  .redarrow-container {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+  }
+  #flecharoja{
+    width: 200px;
+    height: 200px;
+  }
+  #tapascomic1 {
+    width: 350px;
+    height: 350px;
+    margin-top: 3rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 10px #fff, 0 0 0 11px #ccc, 0 20px 20px -12px;
+  }
 }
