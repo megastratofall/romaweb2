@@ -15,6 +15,8 @@ import img11 from "../../assets/12.jpg";
 import img12 from "../../assets/13.JPG";
 import img13 from "../../assets/14.jpg";
 import img14 from "../../assets/16.JPG";
+import img15 from "../../assets/17.jpg";
+
 
 const Portfolio = () => {
   let data = [
@@ -73,6 +75,10 @@ const Portfolio = () => {
     {
       id: 14,
       imgSrc: img14,
+    },
+    {
+      id: 15,
+      imgSrc: img15,
     },
   ];
 
