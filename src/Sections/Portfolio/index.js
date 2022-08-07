@@ -14,7 +14,7 @@ import img10 from "../../assets/11.jpg";
 import img11 from "../../assets/12.jpg";
 import img12 from "../../assets/13.JPG";
 import img13 from "../../assets/14.jpg";
-import img14 from "../../assets/15.JPG";
+import img14 from "../../assets/16.JPG";
 
 const Portfolio = () => {
   let data = [
