@@ -47,7 +47,7 @@ const Form = styled.form`
     background-color: #000000;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #ffffff;
     &:active,
     &:focus {
       border: none;
