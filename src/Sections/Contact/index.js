@@ -10,7 +10,6 @@ import "./back.css";
 const ContactSection = styled.section`
   width: 100vw;
   padding: calc(2.5rem + 2.5vw) 0;
-  background-color: #050505;
   display: flex;
   flex-direction: column;
   align-items: center;
