@@ -55,7 +55,7 @@ const Form = styled.form`
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #fff;
+      color: #ffffff;
       opacity: 0.6;
     }
     &[name="name"] {
@@ -68,14 +68,14 @@ const Form = styled.form`
     background-color: #000000;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #ffffff;
     margin-bottom: 2rem;
     &:focus,
     &:active {
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #fff;
+      color: #ffffff;
       opacity: 0.6;
     }
   }
