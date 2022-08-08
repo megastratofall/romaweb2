@@ -46,7 +46,7 @@ const Form = styled.form`
     background-color: #000000;
     border: none;
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--white);
     &:active,
     &:focus {
       border: none;
@@ -54,7 +54,7 @@ const Form = styled.form`
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #FFFFFF;
+      color: var(--white);
       opacity: 0.6;
     }
     &[name="name"] {
@@ -67,14 +67,14 @@ const Form = styled.form`
     background-color: #000000;
     border: none;
     border-radius: 4px;
-    color: #FFFFFF;
+    color: var(--white);
     margin-bottom: 2rem;
     &:focus,
     &:active {
       background-color: var(--nav);
     }
     &::placeholder {
-      color: #ffffff;
+      color: var(--white);
       opacity: 0.6;
     }
   }
