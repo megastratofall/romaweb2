@@ -27,7 +27,6 @@
 }
 
 .invitacion {
-  background: rgba(0, 0, 0, .4);
   color: rgb(255, 255, 255);
   font-size: 1.2rem;
   margin: 2rem;
@@ -43,7 +42,6 @@
 
 @media only Screen and (max-width: 550px) {
   .invitacion {
-    background: rgba(0, 0, 0, .4);
     display: flex;
     text-align: justify;
     justify-content: center;
